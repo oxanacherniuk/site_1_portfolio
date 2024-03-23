@@ -96,7 +96,10 @@
 }
 @media screen and (max-width: 525px){
     .menu-nav__items {
-        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    .menu-nav {
+        margin-bottom: 0px;
     }
 }
 @media screen and (max-width: 500px){
