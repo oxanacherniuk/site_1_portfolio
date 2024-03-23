@@ -71,6 +71,39 @@ li {
     padding-bottom: 70px;
 }
 
+/* Menu */
+
+.menu {
+    border-bottom: 1px solid #E6E6E6;
+}
+.menu-nav {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.menu-nav__logo {
+}
+.menu-nav__items {
+    display: flex;
+}
+.menu-nav__item {
+    margin-right: 50px;
+}
+.menu-nav__item:last-child {
+    margin-right: 0px;
+}
+.menu-nav__item a {
+    text-decoration: none;
+    color: #48555B;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.09px;
+}
+.menu-nav__item a:hover {
+    color: #00A4E5;
+}
+
 /* Our story */
 
 .story {
