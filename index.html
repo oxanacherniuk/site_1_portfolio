@@ -3,9 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/media.css">
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Konstruct Template</title>
 </head>
 <body>
+
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header-inner">
+                <img src="/img/project-logo.svg" alt="logo" class="header-inner__logo">
+                <h1 class="header-inner__title">PARTNER WITH KONSTUCT</h1>
+                <p class="header-inner__slogan">An award-winning construction management firm</p>
+                <p class="header-inner__text-nav">SCROLL DOWN</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="story" id="about">
+        <div class="container">
+            <h2 class="story__title">OUR STORY</h2>
+            <div class="story-inner">
+                <div class="story-content">
+                    <h3 class="story-content__title">Founded in 2011 by John Mathew Smith, <span class="accent-color">Konstruct</span> has become the number one construction management firm</h3>
+                    <p class="story-content__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="story-items">
+                    <div class="story-items__item">We plan</div>
+                    <div class="story-items__item">We manage</div>
+                    <div class="story-items__item">We build</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="capabilities" id="services">
+        <div class="container">
+            <div class="capabilities-heading">
+                <h2 class="capabilities-heading__title">OUR CAPABILITIES</h2>
+                <div class="capabilities-services">
+                    <p class="capabilities-services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    <button class="capabilities-services__btn" onclick="location.href='#contacts';">ALL SERVICES</button>
+                </div>
+            </div>
+            <div class="capabilities-items">
+                <div class="capabilities-item">
+                    <img src="/img/capabilities-img1.png" class="capabilities-img">
+                    <h3 class="capabilities-item__title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                    <p class="capabilities-item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="capabilities-item">
+                    <img src="/img/capabilities-img2.png" class="capabilities-img">
+                    <h3 class="capabilities-item__title">STRUCTURE AUDIT AND MAINTENANCE</h3>
+                    <p class="capabilities-item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="capabilities-item">
+                    <img src="/img/capabilities-img3.png" class="capabilities-img">
+                    <h3 class="capabilities-item__title">FACTORY CONSTRUCTION AND MODELING</h3>
+                    <p class="capabilities-item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="communication" id="project">
+        <div class="container">
+            <div class="communication-inner">
+                <h2 class="communication-inner__title">Want to build something amazing?</h2>
+                <button class="communication-inner__btn" onclick="location.href='#form';">GET IN TOUCH</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="form" id="form">
+        <div class="container">
+            <div class="mailing-form">
+                <h2 class="mailing-form__title">Newsletter Signup</h2>
+                <form action="">
+                    <input type="email" class="form__email" placeholder="test@youremail.com">
+                    <button class="form__btn" onclick="save()" type="submit">SIGNUP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-inner">
+                <div class="contacts-info">
+                    <ul>
+                        <li class="contacts-info__title">COMPANY</li>
+                        <li class="contacts-info__item"><img src="/img/project-logo.svg" alt="logo"></li>
+                        <li class="contacts-info__item last text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</li>
+                    </ul>
+                </div>
+                <div class="contacts-info">
+                    <ul>
+                        <li class="contacts-info__title">LINKS</li>
+                        <li class="contacts-info__item"><a href="#home">HOME</a></li>
+                        <li class="contacts-info__item"><a href="#about">ABOUT</a></li>
+                        <li class="contacts-info__item"><a href="#services">SERVICES</a></li>
+                        <li class="contacts-info__item"><a href="#project">PROJECT</a></li>
+                        <li class="contacts-info__item last"><a href="#contacts">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-info">
+                    <ul>
+                        <li class="contacts-info__item"><a target="_blank">faq</a></li>
+                        <li class="contacts-info__item"><a target="_blank">terms</a></li>
+                        <li class="contacts-info__item last"><a target="_blank">careers</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-info">
+                    <ul>
+                        <li class="contacts-info__item"><a target="_blank">blog</a></li>
+                        <li class="contacts-info__item"><a target="_blank">partners</a></li>
+                        <li class="contacts-info__item last"><a target="_blank">news</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-info">
+                    <ul>
+                        <li class="contacts-info__title">CONTACT US</li>
+                        <li class="contacts-info__item address"><a target="_blank" href="https://www.google.com/maps/place/26+E+91st+St,+New+York,+NY+10128,+%D0%A1%D0%A8%D0%90/@40.7839741,-73.9567847,17z/data=!3m1!4b1!4m6!3m5!1s0x89c258a251ba2727:0xc307427e159220f6!8m2!3d40.7839741!4d-73.9567847!16s%2Fg%2F11b8v4thyz?entry=ttu">213 Baker Street Oriel City Kounty 7000 KNW, Kountry Name</a></li>
+                        <li class="contacts-info__item"><a target="_blank" href="tel:+23 994 233 4022">+23 994 233 4022</a></li>
+                        <li class="contacts-info__item last"><a target="_blank" href="mailto:info@konstruct.com">info@konstruct.com</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-social">
+                    <a target="_blank" href=""><img class="contacts-social__icon" src="/img/facebook_icon.svg" alt=""></a>
+                    <a target="_blank" href=""><img class="contacts-social__icon" src="/img/twitter_icon.svg" alt=""></a>
+                    <a target="_blank" href=""><img class="contacts-social__icon" src="/img/google_icon.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <section class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-inner__text">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts/main.js"></script>
 </body>
 </html>
