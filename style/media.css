@@ -95,7 +95,7 @@
     }
 }
 @media screen and (max-width: 525px){
-    .menu-nav__items {
+   .menu-nav__items {
         padding-bottom: 30px;
     }
     .menu-nav {
@@ -125,6 +125,10 @@
     .menu-nav__items {
         display: block;
         margin: auto;
+        padding-bottom: 0;
+    }
+    .menu-nav__item:last-child {
+        margin-bottom: 20px;
     }
 
 }
